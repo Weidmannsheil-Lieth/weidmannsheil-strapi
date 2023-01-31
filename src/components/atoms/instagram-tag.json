@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atoms_instagram_tags",
+  "info": {
+    "displayName": "InstagramTag"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

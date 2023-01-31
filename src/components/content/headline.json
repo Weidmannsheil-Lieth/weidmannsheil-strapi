@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_texte_headlines",
+  "info": {
+    "displayName": "Headline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "anchor": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "big",
+        "medium",
+        "small"
+      ],
+      "required": true,
+      "default": "big"
+    }
+  }
+}

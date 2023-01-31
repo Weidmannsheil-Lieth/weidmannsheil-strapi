@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dynamic_leader_boards",
+  "info": {
+    "displayName": "LeaderBoard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leaders": {
+      "displayName": "LeaderBoardEntry",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.leader-board-entry"
+    }
+  }
+}

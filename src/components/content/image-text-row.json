@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_image_text_rows",
+  "info": {
+    "displayName": "Image-Text-Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "isReversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

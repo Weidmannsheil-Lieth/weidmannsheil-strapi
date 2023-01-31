@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_redirects",
+  "info": {
+    "displayName": "Redirect",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "redirect": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::redirect.redirect"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_atoms_leader_board_entries",
+  "info": {
+    "displayName": "LeaderBoardEntry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leader.leader"
+    }
+  }
+}
