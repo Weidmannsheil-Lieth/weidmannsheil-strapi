@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atoms_headlines",
+  "info": {
+    "displayName": "Headline"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

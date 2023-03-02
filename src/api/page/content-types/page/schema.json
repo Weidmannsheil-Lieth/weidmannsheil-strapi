@@ -30,7 +30,8 @@
         "content.redirect",
         "content.divider",
         "dynamic.leader-board",
-        "content.hero"
+        "content.hero",
+        "content.anchor"
       ]
     },
     "navigationName": {

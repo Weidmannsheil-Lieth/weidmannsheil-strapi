@@ -1,14 +1,29 @@
 {
   "collectionName": "components_content_heroes",
   "info": {
-    "displayName": "Hero"
+    "displayName": "Hero",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "headline": {
-      "type": "string",
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
       "required": true,
-      "default": "Schützenbrüderschaft Weidmannsheil"
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.headline",
+      "required": true
+    },
+    "hasWhiteHeadline": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_anchors",
+  "info": {
+    "displayName": "Anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchorName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

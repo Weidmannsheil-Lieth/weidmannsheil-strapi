@@ -15,6 +15,19 @@
       "type": "component",
       "repeatable": true,
       "component": "atoms.anchor"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hasWhiteHeadline": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
