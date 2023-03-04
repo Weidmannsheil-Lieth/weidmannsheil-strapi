@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_download_groups",
+  "info": {
+    "displayName": "DownloadGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "downloads": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.download"
+    }
+  }
+}

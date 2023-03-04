@@ -25,13 +25,13 @@
         "content.headline",
         "content.stage",
         "content.text",
-        "content.download",
         "content.image",
         "content.redirect",
         "content.divider",
         "dynamic.leader-board",
         "content.hero",
-        "content.anchor"
+        "content.anchor",
+        "content.download-group"
       ]
     },
     "navigationName": {

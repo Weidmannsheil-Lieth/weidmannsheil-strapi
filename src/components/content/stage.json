@@ -14,7 +14,8 @@
       "displayName": "Anchor",
       "type": "component",
       "repeatable": true,
-      "component": "atoms.anchor"
+      "component": "atoms.anchor",
+      "max": 5
     },
     "backgroundImage": {
       "type": "media",
